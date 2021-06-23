@@ -17,8 +17,8 @@ function App() {
 <Route exact path='/about' component={About} />
 <Route exact path='/contact' component={Contact} />
 <Route exact path='/service' component={Service} />
-<Route exact path='/privacy_policy' component={Privacy} />
-<Route exact path='/tearms_and_conditions' component={Tc} />
+<Route exact path='/privacy-policy' component={Privacy} />
+<Route exact path='/tearms-and-conditions' component={Tc} />
 <Redirect to='/'/>
  
 </Switch>

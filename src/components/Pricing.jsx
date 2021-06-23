@@ -8,7 +8,10 @@ import {TiTick} from 'react-icons/ti'
 
 function Offer() {
   return (
+    <div className='pricing'>
+      <h2 className='title'>OUR PRICING PLANS</h2>
     <section className='pricing-box' id='pricing'>
+     
   <div className='basic'>
 <h2>Basic Plan</h2>
 <h3>Starting at: <span>NPR 5,000 </span></h3>
@@ -83,6 +86,8 @@ function Offer() {
   </div>
 
     </section>
+
+    </div>
   );
 }
 

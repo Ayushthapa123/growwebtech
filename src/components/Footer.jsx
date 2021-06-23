@@ -51,8 +51,8 @@ function Footer() {
 
 <h3 className='foot-title'>Our Community</h3>
 
-<li><a href='/tearms_and_conditions'>Tearm and Condition</a></li>
-<li><a href='/privacy_policy'>Privacy Policy</a></li>
+<li><a href='/tearms-and-conditions'>Tearm and Condition</a></li>
+<li><a href='/privacy-policy'>Privacy Policy</a></li>
 <li><a href='#'>Blogs</a></li>
 
 </div>

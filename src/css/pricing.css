@@ -1,3 +1,10 @@
+.pricing {
+    background-color: rgb(57, 87, 145);
+}
+.pricing h2 {
+    color:white;
+    font-size: 40px;
+}
 .pricing-box {
     width:100%;
     background-color: rgb(57, 87, 145);
