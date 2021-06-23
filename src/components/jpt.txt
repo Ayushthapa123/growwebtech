@@ -1,0 +1,244 @@
+import React from 'react';
+import { FaFacebookSquare,FaInstagramSquare,FaTwitterSquare,FaPhoneSquareAlt,FaEnvelope} from "react-icons/fa";
+import '../css/footer.css';
+
+
+function Footer() {
+  return (
+
+    <section className='co'>
+    <div className='footer'>
+  <footer>
+<div className='left-footer'>
+
+<h3>About Site</h3>
+<ul>
+<li><a href='#'>Terms and condition</a></li>
+<li><a href="#">Privacy Policy </a></li>
+
+</ul>
+
+
+
+  </div>    
+
+
+<div className='right-footer'>
+
+<h3>Quick links:</h3>
+<ul>
+  <li><a href="#about">about </a></li>
+  <li><a href='#service'>services</a></li>
+  <li><a href='#offer'>offers</a></li>
+  <li><a href='/contact'>contact</a></li>
+</ul>
+
+</div>
+
+<div className='social-icons'>
+
+<h3>We are social</h3>
+<a href='#'><FaFacebookSquare/></a>
+<a href='#'><FaInstagramSquare/></a>
+<a href='#'><FaTwitterSquare/></a>
+
+
+<p>phone-no:9846793894</p>
+<p>email:growwebtechnology@gmail.com</p>
+
+
+</div>
+
+
+
+</footer>
+<div className='super-footer'>
+<span> < FaPhoneSquareAlt/> +977 9846793894</span>
+<span> <FaEnvelope/> growwebtechnology@gmail.com</span>
+</div>
+    </div>
+
+    </section>
+  );
+}
+
+export default Footer;
+
+
+
+
+
+
+
+footer {
+    width:100%;
+    color:white;
+    display: inline-flex;
+}
+
+
+
+.left-footer {
+    width:33%;
+    height:300px;
+    background-color: rgb(10, 10, 10);
+
+}
+
+.left-footer a {
+    color:white;
+}
+.left-footer h3 {
+    font-size: 20px;
+    margin:0px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.left-footer ul li {
+    list-style: none;
+}
+
+.right-footer {
+    width:33%;
+    height:300px;
+    background-color: rgb(10, 10, 10);
+ 
+}
+
+.right-footer a {
+    color:white;
+}
+.right-footer ul li {
+    list-style: none;
+}
+.right-footer h3 {
+
+    font-size: 20px;
+    margin:0px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+
+.social-icons {
+    width:34%;
+    height:300px;
+    background-color: rgb(10, 10, 10);
+}
+
+.social-icons a {
+    font-size: 25px;
+    color:white;
+    margin:10px;
+   position: relative;
+   left:25px;
+   top:15px;
+}
+.social-icons h3 {
+    margin:0px;
+    margin-left: 30px;
+    font-size: 36px;
+    margin-top: 50px;
+}
+.social-icons p {
+    margin-top: 20px;
+    margin-left: 38px;
+}
+
+
+.super-footer {
+    width:100%;
+    height:100px;
+    background-color: rgb(10, 10, 10);
+    opacity:0.9;
+    color:white;
+}
+.super-footer span {
+    padding-left: 30px;
+    position: relative;
+    top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+
+
+   
+footer {
+   
+    height:1000px;
+ 
+    display: block;
+}
+
+.left-footer {
+    width:100%;
+
+}
+
+.left-footer h3 {
+ 
+    margin-top:0px;
+  
+}
+
+.right-footer h3 {
+    margin-top:0px;
+}
+.social-icons h3 {
+    margin-top:0px;
+}
+
+.right-footer {
+    width: 100%;
+}
+
+
+
+
+.social-icons {
+    width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+function debounce(func, wait=20,immediate=true) {
+    var timeout;
+    return function() {
+        var context=this, args=arguments;
+        var later=function() {
+            timeout=null;
+            if(!immediate) func apply(context, args);
+        };
+        var callNow=immediate && !timeout;
+        clearTimeout(timeout);
+        timeout=setTimeout(later,wait);
+        if(callNow) func.apply(context, args);
+    };
+};
+
+const sliderImage=document.querySelectorAll('.slide-in');
+
+function checkSlide(e) {
+    console.count(e);
+}
+
+
+window.addEventListener('scroll', debounce(checkSlide));

@@ -1,0 +1,126 @@
+.container {
+    width:100%;
+    height:540px;
+    background-color: rgb(90, 117, 168);
+}
+
+
+.title {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 35px;
+}
+.phone-email {
+    float:left;
+    width:50%;
+}
+.phone-email p {
+    font-size: 25px;
+    margin-left: 50px;
+    color:white;
+}
+
+
+.contact-form {
+  
+    width:50%;
+    height:auto;
+    position: relative;
+    float:right;
+}
+
+.contact-form form div {
+    width:90%;
+    height:40px;
+    margin-top: 20px;
+ 
+}
+
+
+    
+.contact-form form div input {
+  
+    height:100%;
+    width:100%;
+ border:0px; /*most important for perfect layout */
+  
+    }
+    
+  
+ 
+.contact-form form div textarea {
+ 
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    
+
+}
+
+#text-area {
+    height:100px;
+}
+
+
+
+.contact-form form div button {
+    height:40px;
+    width:100%;
+    border:0px;
+}
+.contact-form form div button:hover {
+    cursor: pointer;
+    background-color: rgb(207, 174, 174);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px){
+
+
+    .container {
+      
+        height:740px;
+    }
+
+
+ 
+  
+    .phone-email {
+      
+        width:100%;
+    }
+    .phone-email p {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    
+    
+    .contact-form {
+      
+        width:100%;
+        float:left;
+    }
+    .contact-form form div {
+        width:90%;
+        height:40px;
+        margin-top: 20px;
+        margin-left: 5%;
+     
+    }
+
+
+
+
+
+
+}

@@ -1,0 +1,24 @@
+
+.component {
+    width:98%;
+    height:auto;
+    margin:auto;
+    overflow-x: hidden;
+    padding:20px;
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:1000px) {
+.component {
+    padding:5px;
+    width:98%;
+}
+}
+    
+   

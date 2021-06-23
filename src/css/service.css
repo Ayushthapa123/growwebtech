@@ -1,0 +1,53 @@
+.component {
+    width:100%;
+    padding:0px;
+    height:auto;
+}
+
+.title {
+    font-size: 35px;
+    
+}
+
+
+.services {
+    width:95%;
+    margin:auto;
+    height:auto;
+}
+
+.sleft {
+    float:left;
+    width:48%;
+}
+
+.sright {
+    float:right;
+    width:48%;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .services {
+        width:100%;
+    }
+    .sleft {
+        width:100%;
+      
+      
+    }
+    .sright {
+        width:100%;
+        float:left;
+  
+        padding:0px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+    
+
+  
+}

@@ -1,0 +1,30 @@
+.mcard {
+    width:200px;
+    height:250px;
+    margin:auto;
+    margin-top: 30px;
+}
+.method-img {
+    width: 200px;
+    height: 200px;
+ 
+}
+
+.method-img img {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+.method-no {
+    height:50px;
+    width:200px;
+}
+.method-no h3 {
+    margin:0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+

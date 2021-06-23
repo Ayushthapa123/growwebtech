@@ -1,0 +1,26 @@
+.devmethod {
+    width:100%;
+    height:auto;
+    background-color: rgb(97, 97, 165);
+    color:white;
+    padding-bottom: 100px;
+}
+.devmethod h2 {
+    margin:0px;
+   
+}
+
+.method-container {
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+
+@media screen and (max-width:800px) {
+    .method-container {
+        display:grid;
+        grid-template-columns:100%;
+    }
+    
+
+}
